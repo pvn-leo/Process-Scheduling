@@ -1,0 +1,5 @@
+gcc -I"./" -c scheduling_org.c
+gcc -I"./" -c fort.c
+gcc -o fcfs scheduling_org.o fort.o
+./fcfs
+
